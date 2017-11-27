@@ -22,7 +22,70 @@
       <a href="Index.html">Inicio</a>│<a href="Educacion.html">Educación</a>│<a href="Experiencia.html">Experiencia</a>
     </nav>
     <section>
-
+      <h2>Educaci&oacute;n</h2>
+      <table border="2">
+        <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>¿Culmin&oacute;?</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td>2018</td>
+          <td>Unipiloto</td>
+          <td>Bogotá D.C</td>
+          <th>Sí</th>
+          </tr>
+          <tr>
+          <td>2018</td>
+          <td>Next U</td>
+          <td>Bogotá D.C</td>
+          <th>Sí</th>
+          </tr>
+          <tr>
+          <td>2017</td>
+          <td>BVC</td>
+          <td>Bogotá D.C</td>
+          <th>Sí</th>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Agregar estudios</h2>
+      <form autocomplete="on">
+        <p>
+        <label for="yr">Año</label>
+        <select name="año">
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+        </select>
+        </p>
+        <p>
+        <label for="Institucion">Instituci&oacute;n</label>
+        <input type="text" required placeholder="Next U">
+        </p>
+        <p>
+        <label for="Lugar">Lugar</label>
+        <input type="text" required placeholder="Bogota D.C">
+        </p>
+        <p>
+      		<label for="end">¿Culminó? </label>
+      		<br>
+      		<input type="radio" name="end"> Si
+      		<br>
+      		<input type="radio" name="end"> No
+      	</p>
+        <input type="submit" value="Enviar">
+      </form>
     </section>
     <footer>
       <h3><strong>Contácto</strong></h3>
